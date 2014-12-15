@@ -1,13 +1,8 @@
-%{
-
-Understanding the FFT, second edition
-
-author: Ke-Wei Ma
-contact: keweima at gmail.com
-summary: replicate Fig 1.4.5
-
-
-%}
+%
+% author: Ke-Wei Ma
+% contact: keweima at gmail.com
+% summary: replicate Fig 1.4.5
+%
 
 clear all;
 clf;

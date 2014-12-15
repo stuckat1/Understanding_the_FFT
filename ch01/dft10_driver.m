@@ -1,9 +1,10 @@
-%
-% Copyright 2013 Ke-Wei Ma
-%
-% Replicate some of the charts in Chapter 1 of
+% 
+% author: Ke-Wei Ma
+% contact: keweima at gmail.com
+% summary: Replicate some of the charts in Chapter 1 of
 % "Understanding the FFT" by Anders E. Zonst
 % using Matlab instead of BASIC.
+%
 
 clear all;
 clf;

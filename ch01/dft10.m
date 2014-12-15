@@ -1,3 +1,8 @@
+%
+% author: Ke-Wei Ma
+% contact: keweima at gmail.com
+%
+
 function [x,y] = dft10( h, a, f)
 % DFT10 A function that returns time domain of a DFT
 % given harmonics and amplitude specification.
