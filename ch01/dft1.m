@@ -5,7 +5,7 @@
 %
 
 clear all;
-clf;
+%clf;
 
 h = 1:2:1000;               % odd-harmonics.  1, 3, 5 ... 1,000
 a = 1 ./ h;                 % amplitude.  1/1, 1/3, 1/5 ... 1,000
@@ -20,13 +20,13 @@ y = sin(j) .* repmat(a',1,n); % repmat converts amplitude vector to mirrored col
 % Plot the first 5 odd harmonics and then the sum of all 
 % the harmonics 
 
-figure;
+figure
 plot(i, y(1,:), ...
      i, y(2,:), ...
      i, y(3,:), ...
      i, y(4,:), ...
      i, y(5,:), ...
-     i, sum(y), 'r');
+     i, sum(y), 'r')
 
-title('Fig 1.2 - Convergence of the Series');
+title('Fig 1.2 - Convergence of the Series')
 

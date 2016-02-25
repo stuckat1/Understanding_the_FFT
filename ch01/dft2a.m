@@ -5,7 +5,7 @@
 %
 
 clear all;
-clf;
+%clf;
 
 h = 1:3000;                 % all harmonics.  
 a = 1 ./ h;                 % amplitude.  1/1, 1/3, 1/5 ... 1,000

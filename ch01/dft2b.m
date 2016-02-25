@@ -5,7 +5,7 @@
 %
 
 clear all;
-clf;
+%clf;
 
 h = 1:2:3000;               % odd-harmonics.  1, 3, 5 ... 1,000
 a = 1 ./ h.^2;              % amplitude.  1/1, 1/3, 1/5 ... 1,000
