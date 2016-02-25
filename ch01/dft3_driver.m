@@ -16,10 +16,10 @@ h = 1:2:200;   % odd terms
 a = 1 ./ h;    % amplitude
 f = @(x) sin(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,1);
-dft10_plot(x,y);
+dft3_plot(x,y);
 
 
 % ------------
@@ -28,10 +28,10 @@ h = 1:1:200;   % all terms
 a = 1 ./ h;    % amplitude
 f = @(x) sin(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,2);
-dft10_plot(x,y);
+dft3_plot(x,y);
 
 % ------------
 % Figure 1.4.2
@@ -39,10 +39,10 @@ h = 1:2:200;      % odd terms
 a = (1 ./ h).^2;  % amplitude
 f = @(x) -cos(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,3);
-dft10_plot(x,y);
+dft3_plot(x,y);
 
 % ------------
 % Figure 1.4.3
@@ -50,10 +50,10 @@ h = 1:2:200;      % odd terms
 a = (1 ./ h).^2;  % amplitude
 f = @(x) sin(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,4);
-dft10_plot(x,y);
+dft3_plot(x,y);
 
 % ------------
 % Figure 1.4.4
@@ -61,10 +61,10 @@ h = 1:1:200;      % all terms
 a = (1 ./ h).^2;  % amplitude
 f = @(x) sin(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,5);
-dft10_plot(x,y);
+dft3_plot(x,y);
 
 
 % ------------
@@ -73,7 +73,7 @@ h = 1:2:200;    % odd terms
 a = 1 ./ h;     % amplitude
 f = @(x) cos(x);
 
-[x,y] = dft10( h, a, f);
+[x,y] = dft3( h, a, f);
 
 subplot(2,3,6);
-dft10_plot(x,y);
+dft3_plot(x,y);

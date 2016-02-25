@@ -3,8 +3,8 @@
 % contact: keweima at gmail.com
 %
 
-function [x,y] = dft10( h, a, f)
-% DFT10 A function that returns time domain of a DFT
+function [x,y] = dft3( h, a, f)
+% dft3 A function that returns time domain of a DFT
 % given harmonics and amplitude specification.
 %
 % h is a vector of harmonics
