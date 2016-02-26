@@ -100,6 +100,6 @@ end
 
 % Graph both the orginal waveform and reconstructed
 figure
-i=0:15
+i=0:15;
 plot(i, z, i, y)
 
